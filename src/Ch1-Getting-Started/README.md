@@ -43,3 +43,21 @@
 10. C programs are converted into machine language with the help of a program called Editor. -> **False**
 11. Most development environments provide an Editor to type a C program and a Compiler to convert it into machine language. -> **True**
 12. int, char, float, real, integer, character, char, main, printf and scank are all keyword. -> **False**
+
+### [D] Match the following:
+
+|  | A | B |
+| :- | :-- | :-- |
+| (a) | \n | Escape Sequence |
+| (b) | 3.145 | Real Constant |
+| (c) | -6513 | Integer Constant |
+| (d) | 'D' | Character Constant |
+| (e) | 4.25e-3 | Exponential form |
+| (f) | main() | function |
+| (g) | %f, %d, %c | Format Specifier |
+| (h) | ; | Statement Terminator |
+| (i) | Constant | Literal |
+| (j) | Variable | Identifier |
+| (k) | & | Address of Operator |
+| (l) | printf() | Output Function |
+| (m) | scanf() | Input Function |
