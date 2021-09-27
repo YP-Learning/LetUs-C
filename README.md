@@ -12,7 +12,7 @@ $ ./filename
 ```
 or 
 ```bash
-gcc ./filename.c -o filename
+$ gcc ./filename.c -o filename
 $ ./filename
 ```
 alternatively you can use `make` 
