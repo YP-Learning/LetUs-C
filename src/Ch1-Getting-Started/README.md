@@ -127,3 +127,6 @@ int main()
     printf("You Entered %d %d %d", m1, m2, m3);
 }
 ```
+
+### [F] Attempt the following:
+1. Ramesh's basic salary is input through the keyboard. His dearness allowance is 40% of basic salary, and house rent allowance is 20% of basic salary. Write a program to calculate his gross salary. [Solution](./F1.c)
