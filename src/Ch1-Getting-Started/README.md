@@ -129,4 +129,7 @@ int main()
 ```
 
 ### [F] Attempt the following:
+
 1. Ramesh's basic salary is input through the keyboard. His dearness allowance is 40% of basic salary, and house rent allowance is 20% of basic salary. Write a program to calculate his gross salary. [Solution](./F1.c)
+
+2. The distance betwen two cities (in km.) is input through the keyboard. write a program to convert and print this distance in meters, feet, inches and centimeters. [Solution](./F2.c)

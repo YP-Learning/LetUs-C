@@ -5,7 +5,7 @@
 // house rent allowance is 20% of basic salary. 
 // Write a program to calculate his gross salary.
 
-int main(){
+int main(void){
     int base_salary;
     float gross_salary, dreamness_allowance = 0.4, house_rent_allowance = 0.2; 
     // dreamness_allowance 40%, house_rent_allowance 20%
