@@ -22,3 +22,56 @@
 2. `res = 4 * a * y / c - a * y / c;` (a = 4, y = 1, c = 3, assume res to be an int) => `4`
 3. `s = c + a * y * y / b;` (a = 2.2, b = 0.0, c = 4.1, y = 3.0, assume s to be an float) => `inf` 
 4. `R = x * x + 2 * x + 1 /2 * x * x + x + 1` (x - 3.5, assume R to be an float) => `23.75`
+
+### [C] Indicate the order in which the following expressions would be evaluated: 
+1. `g = 10 / 5 / 2 / 1;` => 
+```c
+g = 10 / 5 / 2 / 1;
+g = 2 / 2 / 1; // operation: /
+g = 1 / 1; // operation: /
+g = 1; // operation: /
+```
+
+2. `b = 3 / 2 + 5 * 4 / 3;` => 
+```c
+b = 3 / 2 + 5 * 4 / 3;
+b = 1 + 5 * 4 / 3; // operation: /
+b = 1 + 20 / 3; // operation: *
+b = 1 + 6; // operation: /
+b = 7; // operation: +
+```
+
+3. `a = b = c = 3 + 4;` => 
+```c
+a = b = c = 3 + 4; 
+a = b = c = 7; // operation: + 
+a = b = 7; // operation: = ( c = 7 ) 
+a = 7; // operation: = ( b = 7 ) 
+```
+
+4. `x = 2 - 3 + 5 * 2 / 8 % 3;` => 
+```c
+x = 2 - 3 + 5 * 2 / 8 % 3; 
+x = 2 - 3 + 10 / 8 % 3; // operation: * 
+x = 2 - 3 + 1 % 3; // operation: / 
+x = 2 - 3 + 1; // operation: % 
+x = -1 + 1; // operation: - 
+x = 0; // operation: + 
+```
+
+5. `z = 5 % 3 / 8 * 3 + 4;` => 
+```c
+z = 5 % 3 / 8 * 3 + 4;
+z = 2 / 8 * 3 + 4; // operation: %
+z = 0 * 3 + 4; // operation: /
+z = 0 + 4; // operation: *
+z = 4; // operation: +
+```
+
+6. `y = z = -3 % -8 / 2 + 7;` => 
+```c
+y = z = -3 % -8 / 2 + 7;
+y = z = -3 % -8 / 2 + 7; // operation: %
+y = z = -1 + 7; // operation: /
+y = z = 6; // operation: +
+```
