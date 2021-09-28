@@ -16,3 +16,9 @@
 11. `3 = b = 4 = a;` -> error, we cannot assign 3 any value.
 12. `count = count + 1;` -> no errors, if count is defined.
 13. `char ch = '25 Apr 12';` -> error, '25 Apr 12' is a string and should be wrapped around `"` instead of `'`, and `char *ch` should be used.
+
+### [B] Evaluate the Following expressions and show their hierarchy.
+1. `ans = 5 * b * b * x -3 * a * y * y -8 * b * b * x + 10 * a * y;` (a = 3, b = 2, x = 5, y = 4 assume ans to be int) => `-84`
+2. `res = 4 * a * y / c - a * y / c;` (a = 4, y = 1, c = 3, assume res to be an int) => `4`
+3. `s = c + a * y * y / b;` (a = 2.2, b = 0.0, c = 4.1, y = 3.0, assume s to be an float) => `inf` 
+4. `R = x * x + 2 * x + 1 /2 * x * x + x + 1` (x - 3.5, assume R to be an float) => `23.75`
