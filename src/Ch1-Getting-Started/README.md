@@ -10,7 +10,7 @@
 5. `'eLearning'` -> Invalid constant as it should be wrapped between `"` instead of `'`.
 6. `"show"` -> Valid.
 7. `'Quest'` -> Invalid, same reason as (5.).
-8. `2^3` ( $2^3$ ) -> Invalid, the input is non ascii value.
+8. `2³` -> Invalid, the input is non ascii value.
 9. `2 6 5 2` -> Invalid, separated using spaces.
 
 ### [B] Which of the following are invalid variable names and why?
