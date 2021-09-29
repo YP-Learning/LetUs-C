@@ -1,4 +1,4 @@
-<img src="./assets/book.jpg" align="right" height="550">
+<img src="./assets/book.jpg" align="right" height=300>
 
 # LetUs-C
 
