@@ -75,3 +75,41 @@ y = z = -3 % -8 / 2 + 7; // operation: %
 y = z = -1 + 7; // operation: /
 y = z = 6; // operation: +
 ```
+### [D] Convert the Following algebraic expressions into Equivalent C statements:
+
+1. 
+![z = \frac{(x+3)x³}{(y-4)(y+5)}](../../assets/ch2/d1.png)
+
+Ans:
+```c
+Z = ((x + 3) * pow(x, 3)) / ((y - 4) * (y + 5)); // include <math.h> for pow()
+```
+
+2. 
+![R = \frac{2v + 6.22 (c + d)}{g + v}](../../assets/ch2/d2.png)
+
+Ans:
+```c
+R = (2 * v + 6.22 * ( c + d )) / (g + v);
+```
+
+3. 
+![A = \frac{7.7b (xy + a) / c - 0.8 + 2b}{(x +a)(1/y)}](../../assets/ch2/d3.png)
+
+Ans:
+```c
+A = (7.7 * b * ((x * y + a) / c) - (0.8 + 2 * b)) / ((x + a) * (1/y));
+```
+
+4. 
+![X = \frac{12x^3}{4x} + \frac{8x^2}{4x} + \frac{x}{8x} + \frac{8}{8x}](../../assets/ch2/d4.png)
+
+Ans:
+```c
+X = (
+    (12 * pow(x, 3) / (4 * x)) +
+    (8 * pow(x, 2) / (4 * x)) +
+    (x / (8 * x)) +
+    (8 / (8 * x))
+); // #include <math.h> for pow()
+```
