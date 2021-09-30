@@ -220,3 +220,5 @@ a = <input value of a> b = <input value of b>
 4. In C, Arithmetic instructions cannot contain constants on left side of =. -> `False`
 5. In C `**` operator is used for exponentiation. -> `False`
 6. `%` operator cannot be used with floats. -> `True`
+
+
