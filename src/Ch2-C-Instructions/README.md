@@ -213,3 +213,10 @@ a = <input value of a> b = <input value of b>
 ``` 
 `<input value of a>` is the value entered by the user for a, same for b.
 
+### [F] State weather the following statments are True or False:
+1. `*` or `/`, `+` or `=` represent the correct hierarchy of arithmetic operators in C. -> `True`
+2. `[]` and `{}` can e used in Arithmetic instructions. -> `False`
+3. Hierarchy decides which operator is used first. -> `True`
+4. In C, Arithmetic instructions cannot contain constants on left side of =. -> `False`
+5. In C `**` operator is used for exponentiation. -> `False`
+6. `%` operator cannot be used with floats. -> `True`
