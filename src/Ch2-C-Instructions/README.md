@@ -221,4 +221,9 @@ a = <input value of a> b = <input value of b>
 5. In C `**` operator is used for exponentiation. -> `False`
 6. `%` operator cannot be used with floats. -> `True`
 
-
+### [G] Fill in the blanks:
+1. In `y = 10 * x / 2 + z;` <u>&nbsp;`*`&nbsp;</u> operation will be performed first.
+2. If **a** is an integer variable, `a = 11 / 2;` will store <u>&nbsp;`5`&nbsp;</u> in **a**.
+3. The expression, `a = 22 / 7 * 5 / 3;` would evaluate to <u> &nbsp;`5` &nbsp;</u>. 
+4. The expression, `x = -7 % 2 - 8` would evaluate to <u>&nbsp;`-11`&nbsp;</u>. 
+5. If **d** is a **float** the operation `d = 2 / 7.0` would store <u>&nbsp;`0.285714`&nbsp;</u> in **d**.
