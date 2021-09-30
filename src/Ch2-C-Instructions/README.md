@@ -113,3 +113,103 @@ X = (
     (8 / (8 * x))
 ); // #include <math.h> for pow()
 ```
+
+### [E] What will be the Outout of the following programs:
+1. 
+```c
+#include <stdio.h>
+
+int main(){
+    int i = 2, j = 3, k, l;
+    float a, b;
+    k = i / j * j;
+    l = j / i * i;
+    a = i / j * j;
+    b = j / i * i;
+    printf("%d %d %f %f\n", k, l, a, b);
+    return 0;
+}
+```
+
+Ans: 
+```c
+0 2 0.000000 2.000000
+```
+
+2. 
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b, c, d;
+    a = 2 % 5;
+    b = -2 % 5;
+    c = 2 % -5;
+    d = -2 % -5;
+    printf("a = %d, b = %d, c = %d, d = %d\n", a, b, c, d);
+    return 0;
+}
+```
+
+Ans:
+```c
+a = 2, b = -2, c = 2, d = -2
+```
+
+3.
+```c
+#include <stdio.h>
+
+int main() {
+    float a = 5, b = 2;
+    int c, d;
+    c = a % b;
+    d = a / 2;
+    printf("%d\n", d);
+    return 0;
+}
+```
+Ans:
+```c
+main.c:6:11: error: invalid operands to binary expression ('float' and 'float')
+    c = a % b;
+        ~ ^ ~
+```
+
+4. 
+```c
+#include <stdio.h>
+
+int main() {
+    printf("nn \n\n nn\n");
+    printf("nn /n/n nn/n");
+    return 0;
+}
+```
+ans:
+```
+nn 
+
+ nn
+nn /n/n nn/n
+```
+
+5. 
+```
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Enter values of a and b");
+    scanf(" %d %d " &a, &b);
+    printf("a = %d b = %d\n", a, b);
+    return 0;
+}
+```
+
+Ans:
+```c
+a = <input value of a> b = <input value of b>
+``` 
+`<input value of a>` is the value entered by the user for a, same for b.
+
