@@ -4,4 +4,4 @@ a. If a five-digit number is input through the keyboard, write a program to calc
 
 b. if a five-digit number is input through the keyboard, write a program to reverse the number. [Solution](./b.c)
 
-c. If lengths of three sid of a triangle are input through the keyboard, write a program to find the area of the triangle. [Solution](./c.c)
+c. If lengths of three sides of a triangle are input through the keyboard, write a program to find the area of the triangle. [Solution](./c.c)
