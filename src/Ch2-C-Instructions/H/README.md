@@ -18,3 +18,5 @@ f. Whind chill factor is the felt air temperature on exposed skin due to wind. T
 `wcf = 35.74 + 0.6215t + ( 0.4275t - 35.75 ) * v⁰.¹⁶` (v^{0.16})
 
 where t is the temperature and v is the wind velocity. write a program to recive values of t and v and calculate wind chill factor (wcf). [Solution](./f.c)
+
+g. If value of an angle is input through the keyboard into two locations `C` and `D`. Write a program to interchange the contents of `C` and `D`. [Solution](./g.c)
