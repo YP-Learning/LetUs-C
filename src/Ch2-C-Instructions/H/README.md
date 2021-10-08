@@ -22,3 +22,5 @@ where t is the temperature and v is the wind velocity. write a program to recive
 g. If value of an angle is input through the keyboard, write a program to print all its Trigmetric rations. [Solution](./g.c)
 
 h. Two numbers are input through the keyboard into two locations `C` and `D`. Write a program to interchange the contents of `C` and `D`. [Solution](./h.c)
+
+i. Consider a currency system in which there are notes of serven denominators, namely, Rs. 1, Rs. 2, Rs. 5, Rs. 10, Rs.50, Rs. 100. if a sum of Rs. N is entered what will combine to give Rs N. [Solution](.i.c)
