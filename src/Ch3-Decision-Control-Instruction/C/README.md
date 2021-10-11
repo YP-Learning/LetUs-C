@@ -6,3 +6,5 @@ b. Any integer is input through the keyboard. Write a program to find out weathe
 
 c. Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not. [Solution](./c.c)
 (**Hint**: Use the % operator)
+
+d. According to Gregorian calendar, it was Monday on the date 01/01/01. if any year is input through the keyboard write a program to find out what is the day on 1st January of this year. [Solution](./d.c)
