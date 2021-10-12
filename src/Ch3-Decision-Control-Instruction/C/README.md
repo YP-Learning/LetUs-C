@@ -18,3 +18,5 @@ g. Write a program to check whether a triangle is valid or not, when the three a
 h. Write a program to find the absolute value fo a number entered through the keyboard. [Solution](./h.c)
 
 i. Given the length and bredth of a rectangle, write a program to find whether the area of the rectangle is greater tha its perimeter. For example, the area of the rectangle with length = 5 and bredth = 4 is greater than its perimeter. [Solution](./i.c)
+
+j. Given three points **(x1, y1)**, **(x2, y2)**, and **(x3, y3)** check if all three points fall one one straint line. [Solution](./j.c)
