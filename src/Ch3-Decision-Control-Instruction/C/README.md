@@ -20,3 +20,6 @@ h. Write a program to find the absolute value fo a number entered through the ke
 i. Given the length and bredth of a rectangle, write a program to find whether the area of the rectangle is greater tha its perimeter. For example, the area of the rectangle with length = 5 and bredth = 4 is greater than its perimeter. [Solution](./i.c)
 
 j. Given three points **(x1, y1)**, **(x2, y2)**, and **(x3, y3)** check if all three points fall one one straint line. [Solution](./j.c)
+
+k. Given the coordinates **(x, y)** of center of circle and its radius, write a program that will determine whether a point lies inside the circle, on the circle or outside the circle. [Solution](./k.c)
+[Hint: Use `sqrt()` and `pow()` functions]
