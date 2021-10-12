@@ -16,3 +16,5 @@ f. If ages of Ram, Shyam and Ajay are input through the keyboard write a program
 g. Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is vaid if the sum of all the three angles is equal to 180 degrees. [Solution](./g.c)
 
 h. Write a program to find the absolute value fo a number entered through the keyboard. [Solution](./h.c)
+
+i. Given the length and bredth of a rectangle, write a program to find whether the area of the rectangle is greater tha its perimeter. For example, the area of the rectangle with length = 5 and bredth = 4 is greater than its perimeter. [Solution](./i.c)
