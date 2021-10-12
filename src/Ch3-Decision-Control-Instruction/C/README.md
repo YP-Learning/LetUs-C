@@ -23,3 +23,5 @@ j. Given three points **(x1, y1)**, **(x2, y2)**, and **(x3, y3)** check if all 
 
 k. Given the coordinates **(x, y)** of center of circle and its radius, write a program that will determine whether a point lies inside the circle, on the circle or outside the circle. [Solution](./k.c)
 [Hint: Use `sqrt()` and `pow()` functions]
+
+l. Given a point **(x, y)**, write a program to find out if it lies on the X-axis, Y-axis or on the origin. [Solution](./l.c)
