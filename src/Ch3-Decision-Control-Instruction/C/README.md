@@ -14,3 +14,5 @@ e. A five digit number is entered through the keyboard write aprogram to obtain 
 f. If ages of Ram, Shyam and Ajay are input through the keyboard write a program to determine the youngest of three. [Solution](./f.c)
 
 g. Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is vaid if the sum of all the three angles is equal to 180 degrees. [Solution](./g.c)
+
+h. Write a program to find the absolute value fo a number entered through the keyboard. [Solution](./h.c)
