@@ -113,3 +113,226 @@ Ans:
 ```
 200
 ```
+
+### [C] Point out the errors, if any, in the following programs:
+
+a.
+```c
+#include <stdio.h>
+
+int main() {
+    char spy = 'a', password = 'z';
+    
+    if ( spy == 'a' or password == 'z' ) 
+        printf("All the birds are safe in the nest.\n");
+
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    char spy = 'a', password = 'z';
+    
+    if ( spy == 'a' || password == 'z' )  // `or` is not a valid keyboard, use || instead
+        printf("All the birds are safe in the nest.\n");
+
+    return 0;
+}
+```
+
+b. 
+```c
+#include <stdio.h>
+
+int main() {
+    int i = 10, j = 20;
+    
+    if ( i = 5 ) && if ( j = 10 )
+        printf("Have a nice day\n");
+
+    return 0; 
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    int i = 10, j = 20;
+    
+    if ( i == 5 && j == 10 )
+        // use `if` only one time
+        // use == operator instead of = operator
+        // put the expression in one parentheses, else it errors out
+        printf("Have a nice day\n");
+
+    return 0; 
+}
+```
+
+c. 
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 10, y = 20;
+
+    if ( x >= 2 and y <= 50 )
+        printf("%d\n", x);
+
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 10, y = 20;
+
+    if ( x >= 2 && y <= 50 )  // use && instead of and operator
+        printf("%d\n", x);
+
+    return 0;
+}
+```
+
+d. 
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 2;
+
+    if ( x == 2 && x != 0 );
+        printf("Hello\n");
+    else
+        printf("Bye\n");
+
+    return 0;
+}
+```
+Ans: `No error`
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 2;
+
+    if ( x == 2 && x != 0 ) // remove the `;` 
+        printf("Hello\n");
+    else
+        printf("Bye\n");
+
+    return 0;
+}
+```
+
+e.
+```c
+#include <stdio.h>
+
+int main() {
+    int j = 65;
+
+    printf("j >= 65 ? %d : %c", j);
+
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    int j = 65;
+
+    printf("j >= 65 ? %d : %c", j, j); // missing argument for `%c`
+
+    return 0;
+}
+```
+
+f.
+```c
+#include <stdio.h>
+
+int main() {
+    int i = 10, j;
+
+    i >= 5 ? j = 10 : j = 15;
+
+    printf("%d %d\n", i, j);
+
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    int i = 10, j;
+
+    j = i >= 5 ? 10 : 15; // ternary operator was used in incorrect syntax.
+
+    printf("%d %d\n", i, j);
+
+    return 0;
+}
+```
+
+g.
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 6;
+
+    ( a == b ? printf("%d\n", a) );
+
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 6;
+
+    if ( a == b )  // wrong use of ternary operator
+        printf("%d\n", a);
+
+    return 0;
+}
+```
+
+h.
+```c
+#include <stdio.h>
+
+int main() {
+    int n = 9;
+
+    ( n == 9 ? printf("Correct\n"); : printf("Wrong\n"); );
+
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+
+int main() {
+    int n = 9;
+
+    // remove the `;`
+    ( n == 9 ? printf("Correct\n") : printf("Wrong\n") );
+
+    return 0;
+}
+```
