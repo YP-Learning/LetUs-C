@@ -336,3 +336,5 @@ int main() {
     return 0;
 }
 ```
+
+### [D] Attempt the following: [Solution](./D/)
