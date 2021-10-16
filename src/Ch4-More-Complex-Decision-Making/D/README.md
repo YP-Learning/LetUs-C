@@ -10,3 +10,5 @@ The following table shows the range of ASCII values of various characters:
 | a-z | 97-122 |
 | 0-9 | 48-57 |
 | Special symbol | 0-47, 58-64, 91-96, 123-127 |
+
+c. If the three sides of triangle are entered through the keyboard, write a program to check whether the triangle is valid or not. The triangle is valid if the sum o ftwo sides is greater than the largest of the three sides. [solution](./c.c)
