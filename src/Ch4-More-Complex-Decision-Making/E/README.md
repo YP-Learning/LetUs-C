@@ -7,3 +7,5 @@ a. Using conditional operators determine:
 [solution](./a.c)
 
 b. Write a program using contitional operators to determine whether a year entered through the keyboard is a leap year or not. [solution](./b.c)
+
+c. Write a program to find the greatest of the three numbers entered through the keyboard. Use conditional operators. [solution](./c.c)
