@@ -9,3 +9,5 @@ a. Using conditional operators determine:
 b. Write a program using contitional operators to determine whether a year entered through the keyboard is a leap year or not. [solution](./b.c)
 
 c. Write a program to find the greatest of the three numbers entered through the keyboard. Use conditional operators. [solution](./c.c)
+
+d. Write a program to recieve value of an angle in degrees and check whether the sum of squares of sine and cosine is equal to `1`. [solution](./d.c)
