@@ -6,3 +6,4 @@ a. Using conditional operators determine:
 
 [solution](./a.c)
 
+b. Write a program using contitional operators to determine whether a year entered through the keyboard is a leap year or not. [solution](./b.c)
