@@ -114,3 +114,5 @@ int main() {
 }
 ```
 Ans: `Nothing is printed`
+
+### [B] Attempt the following: [Solution](./B/)
