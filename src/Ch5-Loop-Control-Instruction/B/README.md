@@ -17,3 +17,5 @@ f. Write a program for a matchstick game being played between the computer and a
 - Whoever is forced to pick up the last matchstick loses the game.
 
 [solution](./f.c)
+
+g. Write a program to enter unmbers tilll the user wants. At the end it should display the count of positive, negatie and zeros entered. [Solution](./g.c)
