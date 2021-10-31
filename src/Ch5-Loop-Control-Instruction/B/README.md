@@ -23,3 +23,4 @@ g. Write a program to enter unmbers tilll the user wants. At the end it should d
 h. Write a program to recieve an integer and find its octal equivalent. [Solution](./h.c)
 [Hint: To obtain octal equivalent of an integer, divide it continously by 8 till divident doesn't become zero, then write a remainders obtained in reverse direction.]
 
+i. Write a program to find the range of a set of numbers entered through the keyboard. Range is the difference between the smallest and the biggest number is the list. [Solution](./i.c)
