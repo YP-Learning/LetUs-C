@@ -19,3 +19,7 @@ f. Write a program for a matchstick game being played between the computer and a
 [solution](./f.c)
 
 g. Write a program to enter unmbers tilll the user wants. At the end it should display the count of positive, negatie and zeros entered. [Solution](./g.c)
+
+h. Write a program to recieve an integer and find its octal equivalent. [Solution](./h.c)
+[Hint: To obtain octal equivalent of an integer, divide it continously by 8 till divident doesn't become zero, then write a remainders obtained in reverse direction.]
+
