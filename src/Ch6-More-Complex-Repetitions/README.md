@@ -121,3 +121,5 @@ i. Which of the following statement is true about a `for` loop used in a C progr
 Ans: 2. All things that can be done using a `for` loop can also be done using a `while` loop.
 
 3. `for(;;)` implements an infinite loop.
+
+### [C] Attempt the following: [Solution](./C/)
