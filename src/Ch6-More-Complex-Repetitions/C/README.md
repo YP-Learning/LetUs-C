@@ -7,3 +7,11 @@ b. Write a program to add first seven terms of the following series using a `for
 `1/1! + 2/2! + 3/3! +`
 
 c. Write a program to generate all cominations of 1, 2, 3 using `for` loop. [Solution](./c.c)
+
+d. Write a program to print the multiplication table of the number entered by the user. The table should get displayed in the following form: [Solution](./d.c)
+
+`29 * 1 = 29`
+
+`29 * 2 = 58`
+
+...
