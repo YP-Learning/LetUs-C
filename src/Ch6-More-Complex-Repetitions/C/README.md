@@ -33,3 +33,5 @@ g. The natural logarithm can be approximated by the following series.
 if `x` is input through the keyboard, write a program to calculate the sum of first seven terms of this series. [Solution](./g.c)
 
 h. Write a program to generate all Pythagorean Triplets with side length less than or equal to 30. [Solution](./h.c)
+
+i. Population of a town today is 100,000. The population has increased steadily at the rate of 10% per year for the last 10 years. Write a program to determine the population at the end of each year in the last decade. [Solution](./i.c)
