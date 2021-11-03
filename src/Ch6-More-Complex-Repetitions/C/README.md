@@ -27,3 +27,7 @@ f. When interest compounds `q` times per year at an annual rate of `r` % for `n`
 a = p ( 1 + r / q )^(nq)
 
 Write a program to read 10 sets of `p`, `r`, `n` & `q` and calculate the corresponding a's.
+
+g. The natural logarithm can be approximated by the following series. 
+![formula](../../../assets/ch6-c-g.png)
+if `x` is input through the keyboard, write a program to calculate the sum of first seven terms of this series.
