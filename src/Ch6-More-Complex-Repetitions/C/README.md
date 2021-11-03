@@ -31,3 +31,5 @@ Write a program to read 10 sets of `p`, `r`, `n` & `q` and calculate the corresp
 g. The natural logarithm can be approximated by the following series. 
 ![formula](../../../assets/ch6-c-g.png)
 if `x` is input through the keyboard, write a program to calculate the sum of first seven terms of this series. [Solution](./g.c)
+
+h. Write a program to generate all Pythagorean Triplets with side length less than or equal to 30. [Solution](./h.c)
