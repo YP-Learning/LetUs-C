@@ -20,14 +20,14 @@ e. According to a study, the approximate level of intelligence of a person can b
 
 `i = 2 + ( y + 0.5x)`
 
-Write a program that will roduce a table of values of `i`, `y` and `x`, where `y` varies from 1 to 6, and for each value of `y`, `x` varies from 5.5 to 12.5 in steps of 0.5.
+Write a program that will roduce a table of values of `i`, `y` and `x`, where `y` varies from 1 to 6, and for each value of `y`, `x` varies from 5.5 to 12.5 in steps of 0.5. [Solution](./e.c)
 
 f. When interest compounds `q` times per year at an annual rate of `r` % for `n` years, the principal `p` compounds to an amount `a` as per the following formula:
 
 a = p ( 1 + r / q )^(nq)
 
-Write a program to read 10 sets of `p`, `r`, `n` & `q` and calculate the corresponding a's.
+Write a program to read 10 sets of `p`, `r`, `n` & `q` and calculate the corresponding a's. [Solution](./f.c)
 
 g. The natural logarithm can be approximated by the following series. 
 ![formula](../../../assets/ch6-c-g.png)
-if `x` is input through the keyboard, write a program to calculate the sum of first seven terms of this series.
+if `x` is input through the keyboard, write a program to calculate the sum of first seven terms of this series. [Solution](./g.c)
