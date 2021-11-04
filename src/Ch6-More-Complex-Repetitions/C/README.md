@@ -37,3 +37,5 @@ h. Write a program to generate all Pythagorean Triplets with side length less th
 i. Population of a town today is 100,000. The population has increased steadily at the rate of 10% per year for the last 10 years. Write a program to determine the population at the end of each year in the last decade. [Solution](./i.c)
 
 j. Ramanujan number is the smallest number that can be expresssed as sum of two cubes in two different ways. Write a program to print all such numbers up to a reasonable limit. [Solution](./j.c)
+
+k. Write a program to print 24 hours of day with sutable suffixes like AM, P, Noon and Midnight. [Solution](./k.c)
