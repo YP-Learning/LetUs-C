@@ -39,3 +39,12 @@ i. Population of a town today is 100,000. The population has increased steadily 
 j. Ramanujan number is the smallest number that can be expresssed as sum of two cubes in two different ways. Write a program to print all such numbers up to a reasonable limit. [Solution](./j.c)
 
 k. Write a program to print 24 hours of day with sutable suffixes like AM, P, Noon and Midnight. [Solution](./k.c)
+
+l. Write a program to produce the following output:
+```
+            1
+        2       3
+    4       5       6
+7       8       9       10
+```
+[Solution](./l.c)
