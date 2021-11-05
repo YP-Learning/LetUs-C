@@ -223,3 +223,14 @@ int main() {
     return 0;
 }
 ```
+
+### [C] Write a menu driven program which has the following options:
+1. Factorial of a number
+2. Prime or not
+3. Odd or even
+4. Exit
+
+Once a menu item is selected the approriate action should be taken and once this action is finished the menu should reappear. Unless the user selects the menu 'Exit' option the program should continue to run.
+
+Hint: Make use of an infinite `while` and a `switch` statement.
+[solution](./C.c)
