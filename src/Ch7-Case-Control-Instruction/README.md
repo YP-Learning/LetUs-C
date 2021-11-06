@@ -234,3 +234,8 @@ Once a menu item is selected the approriate action should be taken and once this
 
 Hint: Make use of an infinite `while` and a `switch` statement.
 [solution](./C.c)
+
+### [D] Write a program to find the grace makrs for a student using `switch`. The user should enter the clas obtained by the student and the number of subjects he has failed in. Use the following logic:
+- if the student gets first class and the number of subject he failed is greater than 3, then he does not get any grace. Otherwise the grace is of 5 marks per subject.
+- if the students gets second class and the number of subjects he failed in is greater than 2, then he does not get any grace. Otherwise the grace is of 4 marks per subject.
+- if the student ges 3rd class and the number of subjects he failed in is greater than 1, then he does not get any grace. Otherwise the grace is of 5 marks. [Solution](./D.c)
