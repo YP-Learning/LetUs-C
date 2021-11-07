@@ -239,3 +239,5 @@ Ans: `message(message()) passes void to the outter message() which creates an er
 9. A function may be called more than once from any other function. - `true`
 
 10. It is necessary for a function to return some value. - `false`
+
+### [D] Answer the following [Solutions](./D/)
