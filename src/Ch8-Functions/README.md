@@ -218,3 +218,24 @@ void message() {
 }
 ```
 Ans: `message(message()) passes void to the outter message() which creates an error`.
+
+### [C] State whether the following statements are `True` or `False`:
+1. The variables commonly used in C functions are available to all the functions in a program. - `false`
+
+2. To return the control back to the calling function we must use the keyword return. - `false`
+
+3. The same varable names can be used in different functions without any conflict. - `true`
+
+4. Every callled function must contain a `return` statement. - `false`
+
+5. A function may contain more than one `return` statement. - `true`
+
+6. Each `return` statement in a function may return a different value. - `true`
+
+7. A function can still be useful even if you don't pass any arguments to it and the function doesnt return any value back. - `true`
+
+8. Same names can be used for different functions without any conflict. - `false`
+
+9. A function may be called more than once from any other function. - `true`
+
+10. It is necessary for a function to return some value. - `false`
