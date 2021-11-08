@@ -11,3 +11,7 @@ c. Write a general-purpose function to convert any given year into its Roman Equ
 [Solution](./c.c)
 
 d. Any year is entered thorugh the keyboard. Write a function to determine wether the year is a leap year or not. [Solution](./d.c)
+
+e. A positive integer is entered through the keyboard. Write a function to obtain the prime factors of this number. [Solution](./e.c)
+
+for example, prime factors of 24 are 2, 2, 2 and 3, wheras prime factors of 35 are 5 and 7.
