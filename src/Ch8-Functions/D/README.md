@@ -9,3 +9,5 @@ c. Write a general-purpose function to convert any given year into its Roman Equ
 - Roman equivalent of 1525 is mdxxv.
 
 [Solution](./c.c)
+
+d. Any year is entered thorugh the keyboard. Write a function to determine wether the year is a leap year or not. [Solution](./d.c)
