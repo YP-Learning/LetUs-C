@@ -11,3 +11,5 @@ c. Write a C function to evaluate the series
 upto 10 terms [Solution](./c.c)
 
 d. Given three variables `x`, `y`, `z` write a function to circularly shift their values to right. In other words if `x = 5`, `y = 8`, `z = 10`, after circular shift `y = 5`, `z = 8`, `x = 10`, Call the function with variables a, b, c to circularly shift values. [Solution](./d.c)
+
+e. If the lengths of the sides of a triangle are denoted by `a`, `b`, and `c`, then area of traingle is given by `area = sqrt(S(S - a)(s - b)(s - c))` where `S = (a + b + c) / 2`. Write a function to calculate the area of the traingle. [Solution](./e.c)
