@@ -9,3 +9,5 @@ c. Write a C function to evaluate the series
 ![\sin(x) = x-(x^3/3!) + (x^5 / 5!) - (x^7 / 7!) + \dots](../../../assets/ch9-c-c.png)
 
 upto 10 terms [Solution](./c.c)
+
+d. Given three variables `x`, `y`, `z` write a function to circularly shift their values to right. In other words if `x = 5`, `y = 8`, `z = 10`, after circular shift `y = 5`, `z = 8`, `x = 10`, Call the function with variables a, b, c to circularly shift values. [Solution](./d.c)
