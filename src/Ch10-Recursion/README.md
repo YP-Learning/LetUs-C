@@ -41,3 +41,5 @@ Ans: (ignoring that `exit()` needs `#include <stdlib.h>`)
 ```
 C adds wings to your thoughts
 ```
+
+### [B] Attempt the Following: [Solution](./B/)
