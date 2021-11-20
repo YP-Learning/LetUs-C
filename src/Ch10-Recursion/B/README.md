@@ -13,3 +13,4 @@ d. A positive integer is entered through the keyboard, write a function to find 
 1. Without using recursion
 2. Using recursion
 
+e. Write a recursive function to obtain the sum of first 25 natural numbers: [Solution](./e.c)
