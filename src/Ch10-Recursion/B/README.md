@@ -8,3 +8,8 @@ c. Write a recursive function to obtain the first 25 numbers of a Fibonacci sequ
 ```
 1 1 2 3 5 8 13 21 34 55 89...
 ```
+
+d. A positive integer is entered through the keyboard, write a function to find the binary equivalent of this number: [Solution](./d.c)
+1. Without using recursion
+2. Using recursion
+
