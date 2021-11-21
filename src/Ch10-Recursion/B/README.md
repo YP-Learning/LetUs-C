@@ -21,3 +21,5 @@ f. There are three pegs labeled A, B and C. Four disks are placed on a peg A. Th
 
 Write a program to print the sequence in which the disks should be moved such that all disks on peg A are finally transferred to peg C. 
 [Solution](./f.c)
+
+g. If a positive integer is entered through the keyboard, write a recursive function to obtain the prime factors of the number. [Solution](./g.c)
