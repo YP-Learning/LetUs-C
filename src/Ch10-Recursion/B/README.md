@@ -14,3 +14,10 @@ d. A positive integer is entered through the keyboard, write a function to find 
 2. Using recursion
 
 e. Write a recursive function to obtain the sum of first 25 natural numbers: [Solution](./e.c)
+
+f. There are three pegs labeled A, B and C. Four disks are placed on a peg A. The bottom-most disk is largest, and disks go on decreasing in size with the topmost disk being smallest the objective of the game is to move the disks from peg A to peg C using peg B as an auxiliary peg, The rules of the game are as follows: 
+1. Only one disk may be moved at a time, and it must be thee top disk on one of the pegs.
+2. A largr disk should never be placed on the top of a smaller disk. 
+
+Write a program to print the sequence in which the disks should be moved such that all disks on peg A are finally transferred to peg C. 
+[Solution](./f.c)
