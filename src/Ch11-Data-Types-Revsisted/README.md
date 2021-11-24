@@ -165,3 +165,20 @@ int main() {
 }
 ```
 Ans: `No Errors`
+
+### [C] State whether the following statements are `True` or `False`.
+a. The value of an automatic storage class variable presists between various function invocations. -> `False`
+
+b. If the CPU registers are not available, the register storage class variables will be treated as static storage class variables. -> `False`
+
+c. The register storage class variables cannot hold float values. -> `True`
+
+d. If we try to use register storage class for a **float** variable the compiler will report an error message. -> `False`
+
+e. The default value for automatic variable is zero. -> `False`
+
+f. The life of static variable is till the control remains within the block in which it is defined. -> `True`
+
+g. If a global variable is to be defined, then the extern word is necessary in its declaration. -> `False`
+
+h. The address of register variable is not accessible. -> `True`
