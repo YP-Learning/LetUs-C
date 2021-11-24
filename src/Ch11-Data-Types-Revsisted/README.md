@@ -95,3 +95,73 @@ Ans:
 30
 20
 ```
+
+### [B] Point out the errors, if any in the following programs:
+a.
+```c
+#include <stdio.h>
+int main() {
+    long num = 2;
+    printf("%d\n", num);
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+int main() {
+    long num = 2l; // need `l` with the integer
+    printf("%ld\n", num); // %ld instead of just %d
+    return 0;
+}
+```
+
+b.
+```c
+#include <stdio.h>
+int main() {
+    char ch = 200;
+    printf("%d\n", ch);
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+int main() {
+    unsigned char ch = 200; // makt it unsigned
+    printf("%d\n", ch);
+    return 0;
+}
+```
+c.
+```c
+#include <stdio.h>
+int main() {
+    long float a = 25.345e454;
+    unsigned double b = 25;
+    printf("%lf %d\n", a, b);
+    return 0;
+}
+```
+Ans:
+```c
+#include <stdio.h>
+int main() {
+    long double a = 25.345e454;  // long float is invalid combination, needs to be long double
+    double b = 25; // unsigned double is invalid combination
+    printf("%Lf %lf\n", a, b);
+    return 0;
+}
+```
+d.
+```c
+#include <stdio.h>
+static int y;
+int main() {
+    static int z;
+    printf("%d %d\n", y, z);
+    return 0;
+}
+```
+Ans: `No Errors`
