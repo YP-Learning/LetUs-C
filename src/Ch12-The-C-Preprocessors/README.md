@@ -53,7 +53,7 @@ h. All macro substitutes in a program are done:
 1. Before compilation of the program
 2. After compilation
 3. During execution
-4. None of the above
+4. 9 None of the above
 
 **Ans**: _Before compilation of the program_
 
@@ -64,3 +64,61 @@ i. In a program the statement `#include "filename"` is replaced by the contents 
 4. None of the above
 
 **Ans**: _Before Compilation_
+
+### [B] What will be the output of the following program:
+a. 
+```c
+#include <stdio.h>
+int main() {
+    int i = 2;
+    #ifdef DEF
+        i *= i;
+    #else
+        printf("%d\n", i);
+    #endif
+    return 0;
+}
+```
+Ans:
+```
+2
+```
+
+b. 
+```c
+#include <stdio.h>
+#define PRODUCT(x) (x * x)
+
+int main() {
+    int i = 3, j, k, l;
+    j = PRODUCT(i + 1);
+    k = PRODUCT(i++);
+    l = PRODUCT(++i);
+    printf("%d %d %d %d", i, j, k, l);
+    return 0;
+}
+```
+Ans:
+```
+7 7 12 49 
+```
+
+c.
+```c
+#include <stdio.h>
+#define PI 3.14
+#define AREA(x, y, z) (PI * x * y * z);
+
+int main() {
+    float a = AREA(1, 5, 8);
+    float b = AREA(AREA(1, 5, 8), 4, 5);
+    printf("a = %f\n", a);
+    printf("b = %f\n", b);
+    return 0;
+}
+```
+Ans: _assuming that the `;` in the defination of AREA macro is removed, else `error`_
+```
+a = 125.599998
+b = 7887.680176
+```
