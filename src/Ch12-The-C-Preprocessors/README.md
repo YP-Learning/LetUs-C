@@ -122,3 +122,5 @@ Ans: _assuming that the `;` in the defination of AREA macro is removed, else `er
 a = 125.599998
 b = 7887.680176
 ```
+
+### [C] Attempt the following [Solutions](./C/)
