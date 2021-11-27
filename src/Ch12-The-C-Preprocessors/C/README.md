@@ -15,3 +15,14 @@ int main() {
 ```
 using this we can debug our code.
 
+b. Write down macro defination for the following:
+1. To test whether a character is small case letter or not. 
+2. To test whether a character is an upper case letter or not.
+3. To test whether a character is an alphabet or not. Make use of the Macros you defined in 1 and 2 above.
+4. To obtain bigger of two numbers.
+```c
+#define IS_SMALLER_CASE(ch) ((96 < ch) && (ch < 123))
+#define IS_UPPER_CASE(ch) ((64 < ch) && (ch < 91))
+#define IS_ALPHABET(ch) (IS_SMALLER_CASE(ch) || IS_UPPER_CASE(ch))
+#define MAX(x, y) (x > y ? x : y)
+```
