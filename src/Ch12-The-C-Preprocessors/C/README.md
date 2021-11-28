@@ -26,3 +26,5 @@ b. Write down macro defination for the following:
 #define IS_ALPHABET(ch) (IS_SMALLER_CASE(ch) || IS_UPPER_CASE(ch))
 #define MAX(x, y) (x > y ? x : y)
 ```
+
+c. Write a macro definations with arguments for caculation of area and perimeter of a triangle, a square and a circle. Store these macro definations in a file called "areaperi.h". Include this file in your program, and call the macro definations for calculating area and perimeter for different squares triangles and circles. [Solution](./c.c)

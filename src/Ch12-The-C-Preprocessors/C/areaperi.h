@@ -1,0 +1,6 @@
+#define PERI_TRIANGLE(a, b, c) (a + b + c)
+#define PERI_SQUARE(s) (4 * s)
+#define PERI_CIRCLE(r) (2* 3.1415 * r)
+#define AREA_TRIANGLE(b, h) (0.5 * b * h)
+#define AREA_SQUARE(s) (s * s)
+#define AREA_CIRCLE(r) (3.1415 * r * r)
