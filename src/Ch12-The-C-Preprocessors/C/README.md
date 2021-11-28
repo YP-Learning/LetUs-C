@@ -45,3 +45,5 @@ Ans:
 #define TO_LOWER(ch) (ch + 32)
 #define MAX(a, b, c) (a > b ? (a > c ? a:c):(b > c ? b:c))
 ```
+
+e. Write macro definations with arguments for calculation of Simple Interest and Amount. Store these macro definations in a file called "interest.h". include this in your program, and use the macro definations for calculating simple intrest and amount. [Solution](./e.c)
