@@ -96,3 +96,5 @@ k. if `int s[5]` is a one-dimensional array of integers, which of the following 
 4. `s + 2`
 
 Ans: 1. `*(s + 2)`
+
+### [B] Attempt the following: [Solution](./B/)
