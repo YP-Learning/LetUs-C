@@ -9,3 +9,5 @@ c. Twenty-five numbers are entered from the keyboard into an array. The number t
 d. Twenty-five numbers are entered from the keyboard into an array. Write a program to find out how many of them are positive. how many of them are negative, how many are even and how many odd. [solution](./d.c)
 
 e. if an array `arr` contains `n` elements. then write a program to check if `arr[0] = arr[n - 1]`, `arr[1] = arr[n - 2]` and so on. [Solution](./e.c)
+
+f. Write a program using pointers to find the smallest number in an array of 25 integers. [Solution](./f.c)
