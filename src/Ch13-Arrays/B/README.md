@@ -19,3 +19,5 @@ g. Write a program which performs the following tasks:
 - Return the control to `main()` and print new array elements in `main()`;
 
 [Solution](./g.c)
+
+h. Implement the Insertion sort algorithm shown in figure 13.3 on a set of 25 numbers. [Solution](./h.c)
