@@ -11,3 +11,11 @@ d. Twenty-five numbers are entered from the keyboard into an array. Write a prog
 e. if an array `arr` contains `n` elements. then write a program to check if `arr[0] = arr[n - 1]`, `arr[1] = arr[n - 2]` and so on. [Solution](./e.c)
 
 f. Write a program using pointers to find the smallest number in an array of 25 integers. [Solution](./f.c)
+
+g. Write a program which performs the following tasks:
+- Initialize an integer array of 10 elements in `main()`.
+- Pass the entire array to function `modify()`.
+- In `modify()` multiply each element of array by 3.
+- Return the control to `main()` and print new array elements in `main()`;
+
+[Solution](./g.c)
