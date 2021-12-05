@@ -81,3 +81,35 @@ Ans:
 5 5
 1 1
 ```
+
+### [B] Point out the errors, if any, in the following programs:
+a.
+```c
+#include <stdio.h>
+int main() {
+    int twod[][] = { 
+        2, 4,
+        6, 8
+    };
+
+    printf("%d\n", twod);
+    return 0;
+}
+```
+Ans: `%d is for int, but twod is int[][], resulting for error`
+
+b.
+```c
+#include <stdio.h>
+int main() {
+    int three[3][] = {
+        2, 4, 3,
+        6, 8, 2,
+        2, 3, 1
+    };
+
+    printf("%d\n", three[1][1]);
+    return 0;
+}
+```
+Ans: `three[3][] is incomplete declaration which can result for an error, instead use three[3][3]`
