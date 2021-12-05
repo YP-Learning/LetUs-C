@@ -96,7 +96,7 @@ int main() {
     return 0;
 }
 ```
-Ans: `%d is for int, but twod is int[][], resulting for error`
+Ans: `%d is for int, but twod is int[][], resulting for error, and the declaration is not complete. size must be specified.`
 
 b.
 ```c
@@ -113,3 +113,5 @@ int main() {
 }
 ```
 Ans: `three[3][] is incomplete declaration which can result for an error, instead use three[3][3]`
+
+### [C] Attempt the following: [Solution](./C/)
