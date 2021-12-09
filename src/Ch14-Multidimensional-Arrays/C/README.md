@@ -131,3 +131,5 @@ solution:
 | 8. `arr[2][2] \| arr[0][1]` | k. 5 |
 | 9. `arr[0][1] ^ arr[0][2]` | j. 2 |
 | 10. `++**arr + --arr[1][1]` | d. 3 |
+
+g. Write a program to find if a square matrix is symetric. [Solution](./g.c)
