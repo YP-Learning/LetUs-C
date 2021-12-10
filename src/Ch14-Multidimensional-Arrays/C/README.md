@@ -133,3 +133,5 @@ solution:
 | 10. `++**arr + --arr[1][1]` | d. 3 |
 
 g. Write a program to find if a square matrix is symetric. [Solution](./g.c)
+
+h. Write a program to add two 6x6 matrices. [Solution](./h.c)
