@@ -135,3 +135,5 @@ solution:
 g. Write a program to find if a square matrix is symetric. [Solution](./g.c)
 
 h. Write a program to add two 6x6 matrices. [Solution](./h.c)
+
+i. Write a program to multiply any two 3x3 matrices. [Solution](./i.c)
