@@ -146,3 +146,16 @@ l. For the following set of sample data, compute the standard deviation and the 
 ```c
 -6, -12, 8, 13, 11, 6, 7, 2, -6, -9, -10, 11, 10, 9, 2
 ```
+
+m. The area of a triangle can be computed by the sine law when 2 sides of the triangle and the angle between them are known.
+`Area = (1/2) a b sin(angle)`
+Given the following 6 triangular pices of land, write a program to find their area and determine which is the largest. [Solution](./m.c)
+
+| Plot No. |   a   |    b   | angle |
+|:--------:|:-----:|:------:|:-----:|
+|    1.    | 137.4 |  80.9  |  0.78 |
+|    2.    | 155.2 |  92.62 |  0.89 |
+|    3.    | 149.3 |  97.93 |  1.35 |
+|    4.    | 160.0 | 100.25 |  9.00 |
+|    5.    | 155.6 |  68.95 |  1.25 |
+|    6.    | 149.7 |  120.0 |  1.75 |
