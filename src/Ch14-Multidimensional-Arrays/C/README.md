@@ -141,3 +141,8 @@ i. Write a program to multiply any two 3x3 matrices. [Solution](./i.c)
 j. Given an array `p[5]`, write a function to shift it circularly left by 2 positions. Thus, if `p[0] = 15`, `p[1] = 30`, `p[2] = 28`, `p[3] = 19` and `p[4] = 61` then after the shift `p[0] = 28`, `p[1] = 19`, `p[2] = 61`, `p[3] = 15`, and `p[4] = 30`, Call this function for a `(4x5)` matrix and get its rows left shifted. [Solution](./j.c) 
 
 k. A `6 x 6` matrix is entered through the keyboard. Write a program to obtain the Determinant value of this matrix. [Solution](./k.c)
+
+l. For the following set of sample data, compute the standard deviation and the mean. [Solution](./l.c)
+```c
+-6, -12, 8, 13, 11, 6, 7, 2, -6, -9, -10, 11, 10, 9, 2
+```
