@@ -137,3 +137,5 @@ g. Write a program to find if a square matrix is symetric. [Solution](./g.c)
 h. Write a program to add two 6x6 matrices. [Solution](./h.c)
 
 i. Write a program to multiply any two 3x3 matrices. [Solution](./i.c)
+
+j. Given an array `p[5]`, write a function to shift it circularly left by 2 positions. Thus, if `p[0] = 15`, `p[1] = 30`, `p[2] = 28`, `p[3] = 19` and `p[4] = 61` then after the shift `p[0] = 28`, `p[1] = 19`, `p[2] = 61`, `p[3] = 15`, and `p[4] = 30`, Call this function for a `(4x5)` matrix and get its rows left shifted. [Solution](./j.c) 
