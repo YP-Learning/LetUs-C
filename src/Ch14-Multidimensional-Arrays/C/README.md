@@ -181,3 +181,18 @@ $$ r = \frac{ \sum {xy} - \sum {x} \sum {y} }{ \sqrt{[n \sum {x^2} - (\sum {x})^
 | 55.15 |  94.65 |
 
 o. For the following set of pointes given by `(x, y)` fit a straight line given by `y = a + bx` where, $ a = \bar y - b \bar x $ and $ b = \frac{ n \sum {yx} - \sum {y} \sum {x} }{ n \sum {x^2} - (\sum {x})^2 } $. [Solution](./o.c)
+
+|   x  |   y  |
+|:----:|:----:|
+|  3.0 |  1.5 |
+|  4.5 |  2.0 |
+|  5.5 |  3.5 |
+|  6.5 |  5.0 |
+|  7.5 |  6.0 |
+|  8.5 |  7.5 |
+|  8.0 |  9.0 |
+|  9.0 | 10.5 |
+|  9.5 | 12.0 |
+| 10.0 | 14.0 |
+
+p. The `X` and `Y` coordinates of 10 different points are entered through the keyboard. Write a program to find the distance of last point from the first point (sum of distances between consucutive points). [Solution](./p.c)
