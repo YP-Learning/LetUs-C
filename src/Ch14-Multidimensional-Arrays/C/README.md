@@ -164,6 +164,8 @@ n. For the following set of n data points `(x, y)`, write a program to compute t
 
 $$ r = \frac{ \sum {xy} - \sum {x} \sum {y} }{ \sqrt{[n \sum {x^2} - (\sum {x})^2][n \sum {y^2} - (\sum{y})^2 ] } } $$
 
+[Solution](./n.c)
+
 |   x   |    y   |
 |:-----:|:------:|
 | 34.22 | 102.43 |
@@ -177,3 +179,5 @@ $$ r = \frac{ \sum {xy} - \sum {x} \sum {y} }{ \sqrt{[n \sum {x^2} - (\sum {x})^
 | 49.12 |  91.59 |
 | 40.71 |  94.85 |
 | 55.15 |  94.65 |
+
+o. For the following set of pointes given by `(x, y)` fit a straight line given by `y = a + bx` where, $ a = \bar y - b \bar x $ and $ b = \frac{ n \sum {yx} - \sum {y} \sum {x} }{ n \sum {x^2} - (\sum {x})^2 } $. [Solution](./o.c)
