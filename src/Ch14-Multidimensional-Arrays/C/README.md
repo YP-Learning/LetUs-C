@@ -159,3 +159,21 @@ Given the following 6 triangular pices of land, write a program to find their ar
 |    4.    | 160.0 | 100.25 |  9.00 |
 |    5.    | 155.6 |  68.95 |  1.25 |
 |    6.    | 149.7 |  120.0 |  1.75 |
+
+n. For the following set of n data points `(x, y)`, write a program to compute the correlation coefficient r given by
+
+$$ r = \frac{ \sum {xy} - \sum {x} \sum {y} }{ \sqrt{[n \sum {x^2} - (\sum {x})^2][n \sum {y^2} - (\sum{y})^2 ] } } $$
+
+|   x   |    y   |
+|:-----:|:------:|
+| 34.22 | 102.43 |
+| 39.87 | 100.93 |
+| 41.85 |  97.43 |
+| 43.23 |  97.81 |
+| 40.06 |  98.32 |
+| 53.29 |  98.32 |
+| 53.29 | 100.07 |
+| 54.14 |  97.08 |
+| 49.12 |  91.59 |
+| 40.71 |  94.85 |
+| 55.15 |  94.65 |
